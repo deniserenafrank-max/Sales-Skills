@@ -157,13 +157,13 @@ Use [add-skill](https://github.com/vercel-labs/add-skill) to install skills dire
 
 ```bash
 # Install all skills
-npx add-skill louisblythe/salesskills
+npx add-skill deniserenafrank-max/Sales-Skills
 
 # Install specific skills
-npx add-skill louisblythe/salesskills --skill pricing-negotiation competitor-alternatives
+npx add-skill deniserenafrank-max/Sales-Skills --skill pricing-negotiation competitor-alternatives
 
 # List available skills
-npx add-skill louisblythe/salesskills --list
+npx add-skill deniserenafrank-max/Sales-Skills --list
 ```
 
 This automatically installs to your `.claude/skills/` directory.
@@ -174,7 +174,7 @@ Install via Claude Code's built-in plugin system:
 
 ```bash
 # Add the marketplace
-/plugin marketplace add louisblythe/salesskills
+/plugin marketplace add deniserenafrank-max/Sales-Skills
 
 # Install all sales skills
 /plugin install sales-skills
@@ -185,8 +185,8 @@ Install via Claude Code's built-in plugin system:
 Clone the entire repo and copy the skills folder:
 
 ```bash
-git clone https://github.com/louisblythe/salesskills.git
-cp -r salesskills/skills/* .claude/skills/
+git clone https://github.com/deniserenafrank-max/Sales-Skills.git
+cp -r Sales-Skills/skills/* .claude/skills/
 ```
 
 ### Option 4: Git Submodule
@@ -194,7 +194,7 @@ cp -r salesskills/skills/* .claude/skills/
 Add as a submodule for easy updates:
 
 ```bash
-git submodule add https://github.com/louisblythe/salesskills.git .claude/salesskills
+git submodule add https://github.com/deniserenafrank-max/Sales-Skills.git .claude/salesskills
 ```
 
 Then reference skills from `.claude/salesskills/skills/`.
