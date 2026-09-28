@@ -1,13 +1,13 @@
 {
   "name": "salesskills",
   "owner": {
-    "name": "Apparate",
-    "url": "https://apparate.com.au"
+    "name": "Denise Frank",
+    "url": "https://github.com/deniserenafrank-max"
   },
   "metadata": {
     "description": "Sales skills for Claude Code — prospecting, discovery, objection handling, negotiation, and AI SDR capabilities",
     "version": "5.0.0",
-    "repository": "https://github.com/louisblythe/salesskills"
+    "repository": "https://github.com/deniserenafrank-max/Sales-Skills"
   },
   "plugins": [
     {
